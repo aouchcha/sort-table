@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css" class="style">
+    <script src="./assets/js/main.js" type="module"></script>
+</head>
+<body>
+    <div class="MainContainer">
+        <header>
+           <h1>SORTABLE</h1> 
+        </header>
+        <div class="Pagination">
+              
+        </div>
+        <main class="ItemsAndTable">
+           <div class="ItemsContainer">
+                <div class="">
+                    <label>Items per Page</label>
+                    <select name="Items" class="ItemPerPage">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="All">All</option>
+                    </select>
+                </div>
+                <input id="input" class="SearchInput" placeholder="Search..."></input>
+           </div>
+           <p id="demo"></p>
+
+            <table id="SuperHeroes">
+                <thead>
+                    <tr>
+                        <th id="image">Image</th>
+                        <th id="name">Name</th>
+                        <th id="full-name">Full Name</th>
+                        <th id="power-state">PowerStats</th>
+                        <th id="race">Race</th>
+                        <th id="gender">Gender</th>
+                        <th id="height">Height</th>
+                        <th id="weight">Weight</th>
+                        <th id="place-of-birth">Place of birth</th>
+                        <th id="alignment">Alignment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            
+        </footer>
+    </div>
+
+</body>
+</html>

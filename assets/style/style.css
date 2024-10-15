@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+*:focus {
+    outline: none;
+}
+:root{
+    --DarkBlue: #011638;
+    --DarkViolet: #2E294E;
+    --Movey: #9055A2;
+    --LightPink: #D499B9;
+    --PinkLight: #E8C1C5;
+}
+body{
+    background-color: var(--DarkViolet);
+    font-family: "Cabin", sans-serif;
+}
+.MainContainer{
+    width:100%;
+    background-color: blue;
+    height: 40px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: var(--DarkBlue);
+    padding: 12px;
+    color: white;
+}
+.SearchInput{
+    font-size: 18px;
+    border-radius: 4px;
+    border-width: 0;
+    height: 30px;
+    padding-left: 12px;
+}
+#SuperHeroes{
+    border-collapse: collapse;
+    width: 100%;
+}
+select.ItemPerPage {
+    width: 75px;
+    padding: 3px;
+    outline: none;
+    border-radius: 3px;
+    border-width: 0px;
+}
+label{
+    color: white;
+}
+.PowerStats{
+    line-height: 25px;
+}
+.ItemsAndTable{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin:30px 10px 15px 10px;
+}
+.ItemsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+#SuperHeroes{
+    border-radius: 10px;
+}
+#SuperHeroes thead tr th:hover{
+    background-color: #514696;
+    cursor: pointer;
+}
+#SuperHeroes tbody td, #SuperHeroes thead th{
+    color: white;
+    padding: 8px;
+}
+#SuperHeroes tbody tr:nth-child(even){background-color: #514696a3;}
+
+#SuperHeroes tbody tr:hover {background-color: #514696;}
+#SuperHeroes thead th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+    background-color: #33277d;
+}
+.Pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Page{
+    color: white;
+    font-size: 20px;
+    background-color: #514696;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: 900;
+    align-content: center;
+    cursor: pointer;
+}
+#demo{
+    display: none;
+    color: white;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(236, 57, 57);
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+.Pagination{
+    padding: 50px;
+}
+th {
+    width: 10%;
+}
